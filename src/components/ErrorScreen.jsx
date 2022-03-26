@@ -18,10 +18,10 @@ const ErrorScreen = () => {
 
     return (
         <Box>
-            <Typography mt={2} mb={2}>Response</Typography>
+            {/* <Typography mt={2} mb={2}>Response</Typography>
             <Box style={{ display: 'flex' }}>
                 <img src={error} alt="error" className={classes.error} />
-            </Box>
+            </Box> */}
         </Box>
     )
 }

@@ -15,25 +15,25 @@ const Sidenav = () => {
                 <div className='side-list'>
                     <ul className='list' id='menu'>
                         <li className='side-item'>
-                            <a className={toggleState === 1 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(1)} href="#"><span className='list-name'><i class="fa-solid side-icon fa-folder"></i><br></br>Collection</span></a>                             
+                            <a className={toggleState === 1 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(1)} ><span className='list-name'><i class="fa-solid side-icon fa-folder"></i><br></br>Collection</span></a>                             
                         </li>
                         <li className='side-item'>  
-                            <a className={toggleState === 2 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(2)} href="#"> <span className='list-name'><i class="fa-solid side-icon  fa-shapes"></i><br></br>Apis</span></a>  
+                            <a className={toggleState === 2 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(2)} > <span className='list-name'><i class="fa-solid side-icon  fa-shapes"></i><br></br>Apis</span></a>  
                         </li>
                         <li className='side-item'>
-                            <a className={toggleState === 3 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(3)} href="#"> <span className='list-name'><i class="fa-solid side-icon fa-box-open"></i><br></br>Enviorments</span></a>  
+                            <a className={toggleState === 3 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(3)} > <span className='list-name'><i class="fa-solid side-icon fa-box-open"></i><br></br>Enviorments</span></a>  
                         </li>
                         <li className='side-item'>
-                            <a className={toggleState === 4 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(4)} href="#"> <span className='list-name'><i class="fa-solid side-icon fa-server"></i><br></br>Mock Server</span></a>  
+                            <a className={toggleState === 4 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(4)} > <span className='list-name'><i class="fa-solid side-icon fa-server"></i><br></br>Mock Server</span></a>  
                         </li> 
                         <li className='side-item'>
-                            <a className={toggleState === 5 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(5)} href="#"> <span className='list-name'><i class="fa-solid side-icon fa-desktop"></i><br></br>Monitor</span></a>  
+                            <a className={toggleState === 5 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(5)} > <span className='list-name'><i class="fa-solid side-icon fa-desktop"></i><br></br>Monitor</span></a>  
                         </li>
                         <li className='side-item'>
-                            <a className={toggleState === 6 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(6)} href="#"> <span className='list-name'><i class="fa-solid side-icon fa-code-fork"></i><br></br>Flows</span></a>  
+                            <a className={toggleState === 6 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(6)} > <span className='list-name'><i class="fa-solid side-icon fa-code-fork"></i><br></br>Flows</span></a>  
                         </li>
                         <li className='side-item'>
-                            <a className={toggleState === 7 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(7)} href="#"> <span className='list-name'><i class="fa-solid side-icon fa-clock-rotate-left"></i><br></br>History</span></a>  
+                            <a className={toggleState === 7 ? "side-link active-tabs" : 'side-link'}  onClick={() => toggleTab(7)} > <span className='list-name'><i class="fa-solid side-icon fa-clock-rotate-left"></i><br></br>History</span></a>  
                         </li>
                         
                     </ul>

@@ -7,10 +7,10 @@ const Right = () => {
         <div className='side-list'>
             <ul className='list1'>
                 <li className='side-item'>
-                    <a className='side-link' data-toggle="collapse" data-target="#rightcollection" href="#"><i class="fa-solid fa-code"></i><span className='list-name'>Code</span></a>                             
+                    <a className='side-link' data-toggle="collapse" data-target="#rightcollection"><i class="fa-solid fa-code"></i><span className='list-name'>Code</span></a>                             
                 </li>
                 <li className='side-item'>  
-                    <a className='side-link' href="#"> <i class="fa-solid fa-lightbulb"></i><span className='list-name'>Related</span></a>  
+                    <a className='side-link'> <i class="fa-solid fa-lightbulb"></i><span className='list-name'>Related</span></a>  
                 </li>
             </ul>
         </div>
