@@ -44,18 +44,18 @@ const Home = () => {
     
 
     const onSendClick = async () => {
-        if(!checkParams(formData, jsonText, paramData, headerData, setErrorMsg)) {
-            setError(true);
-            return false;
-        }
+        // if(!checkParams(formData, jsonText, paramData, headerData, setErrorMsg)) {
+        //     setError(true);
+        //     return false;
+        // }
 
-        let response = await getData(formData, jsonText, paramData, headerData);
-        console.log(response);
-        if (response === 'error') {
-            setErrorResponse(true);
-            return;
-        }
-        setApiResponse(response.data)
+        // let response = await getData(formData, jsonText, paramData, headerData);
+        // console.log(response);
+        // if (response === 'error') {
+        //     setErrorResponse(true);
+        //     return;
+        // }
+        // setApiResponse(response.data)
     }
 
     return (
