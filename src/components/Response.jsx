@@ -21,7 +21,7 @@ const useStyles = makeStyles({
 const textareaStyle = { 
     width: '100%', 
     padding: 10,  
-    background: `url(http://i.imgur.com/2cOaJ.png)`,
+    // background: `url(http://i.imgur.com/2cOaJ.png)`,
     backgroundAttachment: 'local',
     backgroundRepeat: 'no-repeat',
     paddingLeft: 35,
