@@ -1,0 +1,9 @@
+.sendbtn{
+    background-color: blue !important;
+    color: aliceblue;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.sendbtn:hover{
+    color: aliceblue;
+}

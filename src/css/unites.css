@@ -1,0 +1,79 @@
+.united-col{
+    /* display: flex; */
+    padding: 5px 20px 5px 20px;
+    margin: 10px 0 10px 0;
+    border-bottom: solid 1px #ebebeb;
+    height: 50px;
+}
+.head{
+    font-weight: 800;
+}
+.save{
+    margin-right: -70px;
+}
+.dropdown{
+    margin-left: 1px;
+}
+.btn{
+    background-color: #F2F2F2;
+}
+.btn-light{
+    color: #6B6B6B;
+}
+.devider{
+    border-right: solid 2px  #ebebeb;
+    margin-left:20px;
+}
+.Edit-modes{
+    background-color: #F2F2F2;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.type-mode{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+.comnt-mode{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;   
+}
+button.selected{
+    border: none;
+    background-color: #fff;
+    color: red;
+  }
+.btns1{
+    border: none;
+    color: 	#A9A9A9;
+}
+.fa-floppy-disk{
+    margin-right: 5px;
+}
+
+.btns2{
+    border: solid 1px 	#A8A8A8;
+}
+.get-input{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 90%;
+}
+.get-id{display: flex;}
+
+.send{
+    display: flex;
+}
+.send-btn{
+    background-color: #097Bed;
+    color: #F2F2F2;
+}
+
+.kl{
+    margin-right: -30px;
+}

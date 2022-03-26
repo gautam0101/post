@@ -1,0 +1,89 @@
+.navbar{
+    border-bottom: solid 1px #ebebeb;
+    height:45px;
+}
+
+.navbar-nav li a{
+    color: #6B6B6B !important;
+    margin-right: 20px;
+}
+
+.navbar-nav li a:hover{
+    color: black !important;
+}
+.fa-sm{
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.form-control{
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    background-color: #F2F2F2;
+}
+.form-inline input{
+    width: 20%;
+    height:30px;
+}
+.search-bar{
+    position: unset;
+    transform: unset;
+    flex: .5;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.fa-cloud{
+    margin-top: 2px;
+    color:#007F31;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btns{
+    background-color: #095bed;
+    color: #F2F2F2;
+    width: 62px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.fa-user-plus{
+    margin-right: 5px;
+}
+.fa-gear{
+    margin-right: 8px;
+    margin-left: 10px;
+    padding: 5px;
+    color: 	#A9A9A9;
+}
+.fa-gear:hover{
+    border-radius: 5px;
+    background-color: #6B6B6B;
+}
+
+.fa-bell{
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 5px;
+    color: 	#A9A9A9;
+}
+.fa-bell:hover{
+    border-radius: 5px;
+    background-color: #6B6B6B;
+}
+.cloud{
+    margin-top: 4px;
+}
+
+.right-side{
+    margin-left: 0;
+}
+.bh{
+    margin-left: 0%;
+}
