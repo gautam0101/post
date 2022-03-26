@@ -22,7 +22,7 @@ const Right = () => {
                                     <h4>Documentation</h4>
                                </div>
                                <div className='cf2'>
-                                    <input className="form-control side-input" type="search" placeholder="https://postman-echo.com/get" aria-label="Search"/>
+                                    <input className="form-control side-input" type="search" placeholder="" aria-label="Search"/>
                                </div>
                               
                            

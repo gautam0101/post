@@ -14,7 +14,7 @@ const useStyles = makeStyles({
 
 const ErrorScreen = () => {
     const classes = useStyles();
-    const error = 'https://i.stack.imgur.com/01tZQ.png';
+    // const error = 'https://i.stack.imgur.com/01tZQ.png';
 
     return (
         <Box>
